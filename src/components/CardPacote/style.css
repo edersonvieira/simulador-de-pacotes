@@ -1,0 +1,133 @@
+.icon-style {
+    font-size: 2rem;
+}
+  
+.icon-style:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}  
+
+.card {
+    background-color: rgb(248, 248, 248);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.192);
+    border-radius: 3px;
+    margin: 1rem;
+    padding: 1rem;
+    min-width: 382px;
+    min-height: 376px;
+  }
+  
+  .card-status-ativo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .card-status-ativo i {
+    margin-left: auto;
+  }
+  
+  .card-status-ativo p {
+    background-color: rgb(6, 211, 6);
+    width: 20%;
+    text-align: center;
+    color: white;
+    border-radius: 1rem;
+    border: 1px solid rgb(156, 255, 75);
+    box-shadow: 0px 0px 2px 2px greenyellow;
+    padding: 0px 5px;
+    font-weight: bold;
+  }
+  
+  .card-status-ativo p:hover {
+    opacity: 0.7;
+  }
+  
+  .card-status-inativo p {
+    background-color: rgb(141, 141, 141);
+    width: 20%;
+    text-align: center;
+    color: white;
+    border-radius: 1rem;
+    border: 1px solid rgb(122, 122, 122);
+    box-shadow: 0px 0px 2px 2px rgb(114, 114, 114);
+    padding: 0px 5px;
+    font-weight: bold;
+  }
+  
+  .card-status-inativo p:hover {
+    opacity: 0.7;
+  }
+  
+  .card-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(219, 219, 219);
+    padding: 0.5rem 0;
+  }
+  
+  .card-title h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-right: 1rem;
+  }
+  
+  .card-button-editar {
+    background-color: rgb(255, 161, 21);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .card-button-editar:hover {
+    background-color: rgb(255, 161, 21, 0.8);
+  }
+  
+  .card-button-deletar {
+    background-color: rgb(255, 21, 21);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .card-button-deletar:hover {
+    background-color: rgb(255, 21, 21, 0.8);
+  }
+  
+  .card-subtitle {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(219, 219, 219);
+    padding: 0.5rem 0;
+  }
+  
+  .card-subtitle p {
+    font-size: 1rem;
+    opacity: 0.8;
+    color: gray;
+  }
+  
+  .card-campos-title {
+    border-bottom: 1px solid rgb(219, 219, 219);
+    padding: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .card-campos-title h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  
+  .card-campos-lista {
+    padding: 0.5rem 0;
+  }
+  
